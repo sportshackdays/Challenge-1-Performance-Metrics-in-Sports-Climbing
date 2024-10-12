@@ -309,6 +309,10 @@ def main(video_path, csv_path, output_video_path):
     df_keypoints = load_keypoints(csv_path)
     process_video(video_path, df_keypoints, output_video_path)
 
+
+
+
+
 if __name__ == "__main__":
     csv_folder = '../output/keypoints'
     video_folder = '../data/videos'
